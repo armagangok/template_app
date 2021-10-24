@@ -6,9 +6,20 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: const Text('Theming'),
+        centerTitle: true,
+      ),
       body: Column(
-        children: [],
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Row(mainAxisAlignment: MainAxisAlignment.center, children: []),
+          const Text("Body Text"),
+          ElevatedButton(
+            onPressed: () {},
+            child: const Text("Button Text"),
+          )
+        ],
       ),
     );
   }
