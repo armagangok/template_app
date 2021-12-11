@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:template/app/screens/home/homescreen.dart';
-import 'app/core/theme/theme.dart';
+
+import 'app/views/home/homeview.dart';
+
+
 
 void main() {
   runApp(const MyApp());
@@ -13,8 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Template App',
-      theme: theme(),
-      home: const HomeScreen(),
+      home: const HomeView(),
     );
   }
 }
