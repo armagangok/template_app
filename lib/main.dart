@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-
 import 'app/views/home/homeview.dart';
-
-
 
 void main() {
   runApp(const MyApp());
@@ -13,9 +10,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'Template App',
-      home: const HomeView(),
+      home: HomeView(),
     );
   }
 }

@@ -1,1 +1,1 @@
-/*Some dummy codes*/
+Future<void> initApp() async{}
